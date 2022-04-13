@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* ====Global-style==== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+.row{
+    max-width: 100%;
+    float: left;
+}
+.heading{
+    color: #242f51;
+    font-size: 25pt;
+}
+.heading-three{
+    color: #242f51;
+    font-size: 19pt;
+    line-height: 1.2;
+}
+.heading-five{
+    font-size: 11pt;
+    color: #242f51;
+}
+.heading-six{
+    color: #242f51;
+    font-size: 8pt;
+}
+.para{
+    font-size: 12.5px;
+    color: #66686c;
+}
+a{
+    text-decoration: none; 
+}
+.btn{
+    background-color: #2500f9;
+    color: white;
+    padding:12px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    background-color: #ccd2de;
+    color: #09142e;
+    box-shadow: 0px 0px 10px lightgray;
+    letter-spacing: 0.5px;
+}
+/* ====layout class==== */
+
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66;
+    float: left; 
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+/* ======header part======= */
+
+header {  
+    max-width: 100%;
+    float: left;
+    background-color: white;
+    position: fixed;
+    z-index: 9999; 
+}
+.logo-part{ 
+    padding: 20px 0;
+    margin-top: 5px;
+    padding-left: 80px;      
+}
+.menu-part{
+    padding: 20px 0;
+    text-align: end;
+    margin-top: 09px;
+}
+.menu-part ul{ 
+    display: inline-block;
+}
+.menu-part li{
+    text-align: right;
+    list-style: none;
+    margin: 0 10px;
+    font-size: 15px;
+    float: left;  
+}
+.menu-part li a{
+    color: #242f51;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.menu-part a:hover{
+    color: #2563ff;  
+}
+.btn-part{
+    display: block;
+    text-align: center;
+    margin-top:18px;
+}
+.header-btn{
+    margin-right: 60px;  
+}
+
+/* =======hero section======= */
+
+.hero{
+    max-width: 100%;
+    float: left;
+    position: relative;
+    height: 580px;
+    top: 40px;  
+}
+.background-part .first {
+    max-width: 100%;
+    position: absolute;
+    top: 402px; 
+    height: 180px;     
+}
+.background-part .second { 
+    max-width: 90%;
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    animation: first 2s infinite ;   
+}
+.background-part .third{
+    max-width: 60%;
+    position: absolute;
+    bottom: 130px;
+    left: 17px; 
+    animation: second 2s infinite ; 
+}
+.hero-writing-part{
+   margin-top: 150px;
+   top: 200px;
+   padding-left: 200px;  
+}
+.hero-icon{
+    max-width: 35px;
+    top: 148px;
+    left: 198px;
+    position: absolute;
+    z-index: 2; 
+    cursor: pointer; 
+}
+.hero-writing-part .icon-text{
+    display: inline;
+    background-color:#e2eaed;
+    padding: 7px 40px;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    position:relative;
+}
+.hero-writing-part h1{
+    padding: 15px 0px;
+    font-size: 25pt;
+}
+.hero-para{
+    margin-bottom: 30px;
+    font-size: 12.5px;  
+}
+.hero-img-part img{
+    position: absolute;
+    z-index: 222;
+    bottom: 60px;
+    right: 190px;
+    animation: second 2s infinite ;
+}
+.hero-btn{
+    position: relative;
+   margin-right: 10px;  
+}
+.hero-writing-part a{
+    color: #765ffb;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px; 
+}
+
+/* ==========LOGO-SECTION========== */
+
+.logo{
+    max-width: 100%;
+    float: left;
+    margin: 45px 0;
+}
+.logo-writing{
+    text-align: center;
+}
+.logo-writing h6{
+    margin: 30px 0;
+    padding-top: 35px;
+}
+.logo-writing img{
+    max-width: 8%;
+    margin: 15px 20px;
+}
+.logo-img{   
+    margin: 40px  0;  
+}
+.mobile-img{
+    text-align: end;
+}
+.logo-img img{
+    margin: 20px 40px;
+    max-width:80%;
+}
+.icon-img-writing p{
+    max-width: 60% ;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.icon-img-writing h3{
+    
+    margin-top: 30px;
+    max-width: 50%;
+}
+.icon-img-img{
+    margin-top: 20px;
+}
+.icon-part{
+    margin-top: 10px;
+    max-width: 100%;
+    height: 100px;
+}
+.box{
+    display: inline;
+    max-width: 13%;
+    position: relative;
+    cursor: pointer;
+    left: -8%;
+    top: 0px;
+    float: left;
+}
+.box-text{
+    cursor: pointer;
+    padding: 10px 10px;
+    float: left;
+    max-width: 50%;
+}
+.speed-writing h5{
+    color: #f55767;
+}
+.prototyping-writing{
+    color: #2563ff ;
+}
+.vector-writing h5{
+    color: #40975f ;
+}
+
+/* =======article section========== */
+
+.article-one {
+    max-width: 100%;
+    float: left;
+}
+.writing-part{
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
+.article-one .writing-part h3{
+    padding: 45px 30px;
+    margin-left: 40px;
+}
+.article-one .writing-part p{
+    margin-left: 30px;
+    padding: 60px 0px;
+}
+.line{
+    display: inline-block;
+    border: solid 2px #c1c5cd;
+    height: 100px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.article-icon-part {
+    padding: 0px 30px;
+    margin: 0px 40px;
+}
+.article-icon{
+    padding-left: 20px;
+}
+.article-icon img{
+    max-width: 25%;
+}
+.bill h5{
+    color: #f55767;
+    margin: 10px 0;
+}
+.network h5{
+    color: #2563ff;
+    margin: 10px 0;
+}
+
+.badge h5{
+    color: #40975f;
+    margin: 10px 0;
+}
+
+/* ======== smart jackpot ======== */
+
+.smart-jackpot{
+    border-bottom: #e2eaed 1px solid;
+    margin: 40px 0px;
+}
+.smart-img{
+    text-align: end;
+    margin: 30px 0;
+    animation: first 2s infinite ;
+}
+.smart-img img{
+    max-width: 85%;
+    margin: 20px 0px;
+    padding-right: 20px;
+}
+.smart-writing-part{
+    margin-top: 90px;
+    padding: 20px 60px;
+}
+.smart-writing-part h3{
+    margin: 10px 0px;
+    margin-right: 120px;
+}
+.smart-writing-part p{
+    margin-right: 60px;
+}
+.smart-writing-part .smart-btn{
+    margin: 25px 0;
+}
+
+/* ==========about section========= */
+
+.about{
+    text-align: center;
+    margin: 30px 0;
+}
+.about-writing{
+    max-width: 60%;
+    margin: auto;
+}
+.about-writing h3{
+    max-width: 60%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.about-writing p{
+    max-width: 95%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.about-icon-part {
+    padding: 20px 30px;
+    margin: 0px 40px; 
+}
+.about-icon{
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+.about-icon img{
+    max-width: 25%;
+}
+.about-icon h5{
+    margin: 10px 0;
+}
+
+/* ========features section========== */
+
+.features{
+    height: 650px;
+    margin: 20px 0;
+}
+.features-writing-part{
+    padding-left: 110px;
+}
+.features-writing-part h3{
+    max-width: 60%;
+    padding: 20px 0;
+}
+.features-writing-part p{
+    max-width: 77%;
+    margin-bottom: 30px;
+}
+.features-img{
+    margin-top: 25px;
+    position: relative;
+}
+.features-img img{
+    max-width: 100%;
+}
+.features-icon-part{
+    position: absolute;
+    max-width: 52%;
+}
+.feature-icon{
+    float: left;
+    max-width: 50%;
+}
+.feature-icon img{
+    max-width: 25%;
+}
+.feature-icon h5{
+    margin: 10px 0;
+}
+.feature-btn{
+    font-size: 11px;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+/* ========payment section======== */
+
+.payment{
+    text-align: center;
+    border-bottom: #e2eaed 1px solid;
+    height: 800px;
+}
+.payment-part{
+    max-width: 60%;
+    margin: auto;
+    padding: 30px 40px;
+}
+.payment-writing h3{
+    padding: 5px 40px;
+}
+.payment-writing p{
+    padding: 20px 10px;
+    margin-bottom: 40px;
+}
+.button-part{
+    font-size: 12px;
+    max-width: 42%;
+    margin: auto;
+    border: #f4f7f9 1px solid;
+    border-radius: 20px;
+    background-color: #f4f7f9;
+    animation: second 2s infinite ; 
+}
+.pay-btn{
+    background-color: #f4f7f9;
+    color: #242f51;  
+}
+.pay-btn:hover{
+    background-color: #2500f9;
+    color: white;
+}
+.box-part{
+    max-width: 100%;
+    float: left;
+    margin: 40px 30px;
+}
+.box-first {
+    max-width: 45%;
+    float: left;
+    margin: 20px 2.5%;
+    box-shadow: 0 0 10px lightgrey; 
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+.box-first:hover{
+    box-shadow: 15px 30px 20px lightgrey;   
+}
+.box-second{
+    max-width: 45%;
+    float: left;
+    margin: 20px 2.5%;
+    box-shadow: 0 0 10px lightgrey; 
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+}
+.box-second:hover{
+    transition: all 1s ease-in-out;
+    box-shadow: 15px 30px 20px lightgrey;  
+}
+.value{
+    padding: 20px 0;
+    background-color:#f4f7f9;
+}
+.value h1{
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.value h6{
+    color:grey ;
+    display: inline-block;
+}
+.value h5{
+    padding: 5px 0;
+}
+.describe p{
+    padding: 20px 40px;
+    line-height: 30px;
+}
+.describe h6{
+    margin-bottom: 10px;
+}
+.box-btn{
+   margin-bottom: 20px;
+}
+
+/* ========contact section========= */
+
+.contact{
+    margin: 100px 0px;
+}
+.contact-img{
+    margin: 35px 0;
+} 
+.contact-img img{
+    max-width: 100%;
+}
+.contact-writing{
+    max-width: 100%;
+    float: left;
+}
+.contact-writing h3{
+    margin: 10px 0;
+    max-width: 65%;
+}
+.contact-writing p{
+    margin: 10px 0;
+    max-width: 65%;
+}
+.contact-writing .star{
+    margin: 20px 0;
+    padding-top: 10px;
+}
+.contact-writing .star a{
+    color: gold;
+}
+.contact-writing .para-one{
+    max-width: 85%;
+}
+.self-img{
+    margin: 20px 0;
+    margin-right: 20px;
+    display: inline-block;
+    float: left;
+}
+.self-img a img{
+    margin: 10px 0;
+    margin-right: 10px;
+    max-width: 80px;
+    border-radius: 80px;
+}
+.self-part{
+    display: inline-block; 
+    margin: 35px 0;
+    margin-right: 10px;
+}
+.self-part h6{
+    font-size: 10pt;
+    margin-top: 5px;
+}
+.self-part p{
+    margin: 0 0;
+    max-width: 100%;
+    font-size: 14px;
+}
+.contact-button{
+    margin-left: 120px;  
+    display: inline-block;   
+}
+.contact-button .contact-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.contact-button .contact-btn:hover{
+    background-color: #2563ff;
+    color: #f4f7f9;
+}
+/* ==========Questions section========= */
+.question{
+    text-align: center;
+    margin: 10px 0px;
+    border-bottom: #e2eaed 1px solid;
+}
+.question-writing{
+    max-width: 55%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.question-writing h3{
+    margin: 20px 0;
+}
+.question-box{
+    margin: 20px 70px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.question-box .box-one{
+    background-color: #f4f7f9;
+    margin: 30px 40px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px lightgrey ;
+    transition: all 0.5s ease-in-out;
+}
+.question-box .box-one:hover{
+    box-shadow: 20px 10px 30px lightgray ;
+    cursor: pointer;
+    letter-spacing: 1px; 
+}
+
+/* ==========download section========= */
+
+.download{
+    height: 275px;
+}
+.download-img-part img{
+    max-width: 55%;
+    position: absolute;
+    right: 15px;
+    animation: first 2s infinite ; 
+}
+.download-writing{
+    padding-left: 80px;
+    position: relative;  
+}
+.download-writing h2{
+    font-size: 22pt;
+    margin-top: 50px;
+}
+.download-writing p {
+    margin: 15px 0;
+    font-size: 10.5px;   
+}
+.download-writing img{
+    max-width: 30%;
+    margin: 15px 7px;
+}
+
+/* ===========footer section========== */
+
+.footer{
+    background-color: #09142e;
+    height: 360px;
+    padding-top: 100px;
+    text-align: center;
+}
+.footer img{
+    max-width: 100px;
+}
+.footer-menu{
+    margin: 20px 0;
+}
+.footer-menu a{
+    color: #f4f7f9;
+    padding: 0 10px;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+.footer-menu a:hover{
+    color: aqua;
+    letter-spacing: 0.5px;
+}
+.footer-icon i{
+    color: #35425e;
+    margin-bottom: 50px;
+    font-size: 30px;
+    padding: 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.footer-icon i:hover{
+    color: #ffff;
+}
+
+
+
+
+/* ==========Animation keyframes============ */
+
+@keyframes first {
+    0%,100%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(15px);
+    }  
+}
+@keyframes second {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }  
+}
+
+
+
+
+
+/* ==============THANKS FOR WATCHING================ */
